@@ -1,0 +1,14 @@
+.head {
+  background-image: url(../images/ghan2.jpeg);
+  
+}
+.head p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  color: rgb(42, 235, 186);
+}
+.forms {
+  background-image: url(../images/ghancl.jpg);
+  
+}
