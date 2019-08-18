@@ -11,17 +11,24 @@
       <P>Find Out Your Akan Name Here!!!</P>
     </div>
     <div class="forms">
+        <script src="js/year.js"></script>
       <div class="row">
         <div class="col-md-6">
-      <input type="radio" name="gender">male
-      <input type="radio" name="gender">female
+      <input type="radio" name="gender" id="male">male
+      <input type="radio" name="gender" id="male">female
     </div>
     </div>
-     <script src="akan.js"></script>
-      day :<input type="text"name="day" id="day"><br>
-      month :<input type="text"name="month" id="month"><br>
-      year :<input type="text"name="year" id="year"> 
+     <script src="../akanip/js/year.js"></script>
+     <form>
+      Day :<input type="tel"name="day" value="" id="day"><br>
+      Month :<input type="tel"name="month" value="" id="month"><br>
+      Year :<input type="tel"name="year"  value="" id="year"  >
+
+    </form>
+      <button onclick="b()">go</button>
+
       
+      <p id="result"></p>
     
      
     </div>
