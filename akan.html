@@ -10,27 +10,38 @@
     <div class="jumbotron head" >
       <P>Find Out Your Akan Name Here!!!</P>
     </div>
-    <div class="forms">
-        <script src="js/year.js"></script>
-      <div class="row">
-        <div class="col-md-6">
-      <input type="radio" name="gender" id="male">male
-      <input type="radio" name="gender" id="male">female
-    </div>
-    </div>
-     <script src="../akanip/js/year.js"></script>
-     <form>
-      Day :<input type="tel"name="day" value="" id="day"><br>
-      Month :<input type="tel"name="month" value="" id="month"><br>
-      Year :<input type="tel"name="year"  value="" id="year"  >
 
-    </form>
-      <button onclick="b()">go</button>
+    
+    <div class="forms">
+      <div class="row" >
+      <div class="description">
+        <h2> What are akan names?? </h2>
+        <p >Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+      </div>
+      </div>
+      <p>Enter your birthday</b> (then hit the &quot;Update&quot; button):</p>
+      <script src="js/date.js"></script>
+      <div class="form">
+      <form>
+          <p>Numeric Month (1-12): <input TYPE="text" NAME="month" SIZE="2"> </p>
+          <p>Day of Month (1-31): <input TYPE="text" NAME="day" SIZE="2"> </p>
+          <p>Year (eg. 1960): <input TYPE="text" NAME="year" SIZE="4"> </p>
+          <p><input TYPE="button" VALUE="Update" ONCLICK="compute(this.form)"> <input TYPE="reset"
+          VALUE="Clear"> </p>
+          <p>Akan name: <input TYPE="text" NAME="result1" SIZE="18"> </p>
+          <p>Day of Week: <input TYPE="text" NAME="result2" SIZE="18"> </p>
+        </form>
+      </div>
+        
+        
+  </div>
+    <script src="js/date.js"></script>
+      
 
       
       <p id="result"></p>
     
-     
+    </div>
     </div>
   </div>
   

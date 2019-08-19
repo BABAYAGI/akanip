@@ -1,3 +1,9 @@
+body{
+  background-image: url(../images/ghana.jpg);
+}
+
+
+
 .head {
   background-image: url(../images/ghan2.jpeg);
   
@@ -13,9 +19,32 @@
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
-  
+  background-image: url(../images/ghancl.jpg);
   margin-top: 20px;
   width: 1110px;
-  height: 700px;
+  height: 900px;
 
+}
+.description {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #197fe6;
+  border-radius: 0.3rem;
+  
+  margin-top: 20px;
+  width: 900px;
+  height: 400px;
+  margin-left: 100px;
+  background-image: url(../images/ghanaflag.jpg)
+
+} 
+.description h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size : 70px;
+} 
+.description p {
+  color: blue;
+  font-size: 30px
 }
