@@ -1,21 +1,18 @@
 body{
   background-image: url(../images/ghana.jpg);
-  
-  height: 100%;
-  width: 100%;
 }
 
 
-
 .head {
-  background-image: url(../images/ghan2.jpeg);
+  background-color:rgba(21, 192, 214, 0.76);
+  color: brown;
   
 }
 .head p {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 70px;
-  color: rgb(42, 235, 186);
+  color:red;
 }
 .forms {
   padding: 2rem 1rem;
@@ -31,7 +28,7 @@ body{
 .description {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #197fe6;
+  background-color:rgba(21, 192, 214, 0.76);
   border-radius: 0.3rem;
   margin-top: 20px;
   width: 900px;
@@ -43,12 +40,12 @@ body{
 .description h2 {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  color: black;
+  color: green;
   font-size : 70px;
 } 
 .description p {
-  color: blue;
-  font-size: 30px
+  color: green;
+  font-size: 25px;
 }
 .formbody {
   padding: 2rem 1rem;
@@ -85,7 +82,7 @@ body{
   margin-top: 20px;
   width: 900px;
   height: 80px;
-  background-color:yellowgreen;
+  background-color:rgba(24, 192, 38, 0.76);
 
 }
 .calc h1 {
