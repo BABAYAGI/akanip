@@ -1,5 +1,5 @@
 
-//General Array Function
+//General Array Function Used To Make Arrays
 function MakeArray(n) {
    this.length = n;
    for (var i = 1; i <=n; i++) {
@@ -7,7 +7,7 @@ function MakeArray(n) {
    }
 }
 
-//Initialize Days of Week Array
+//Days of Week Array
 days = new MakeArray(7);
 days[0] = "Saturday"
 days[1] = "Sunday"
