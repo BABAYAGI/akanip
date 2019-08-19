@@ -54,7 +54,7 @@ femaleakannames[6]= "Afua"
 
 
 //Day of Week Function
-function compute(form) {
+function malecompute(form) {
    var val1 = parseInt(form.day.value, 10)
    if ((val1 < 0) || (val1 > 31)) {
       alert("Day is out of range")
@@ -66,7 +66,7 @@ function compute(form) {
    var val2x = parseInt(form.month.value, 10)
    var val3 = parseInt(form.year.value, 10)
    if (val3 < 1900) {
-      alert("You're that old!")
+      alert("You're quite old!")
    }
    if (val2 == 1) {
       val2x = 13;
@@ -84,10 +84,10 @@ function compute(form) {
    var val9 = parseInt(val8/7, 10)
    var val0 = val8-(val9*7)
    form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
-   form.result2.value = days[val0]
+   form.result2.value = maleakannames[val0]
 }   
 
-function compute(form) {
+function femalecompute(form) {
   var val1 = parseInt(form.day.value, 10)
   if ((val1 < 0) || (val1 > 31)) {
      alert("Day is out of range")
@@ -117,7 +117,7 @@ function compute(form) {
   var val9 = parseInt(val8/7, 10)
   var val0 = val8-(val9*7)
   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
-  form.result2.value = days[val0]
+  form.result2.value = femaleakannames [val0]
 }   
 
 
