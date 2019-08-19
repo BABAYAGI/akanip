@@ -12,11 +12,17 @@ then i replaced my arrays of days with akan names
 i gave each gender its own function.
 
 ## Setup/Installation Requirements
-* you can view on all media
+* its a web oriented application
+ 
 
 ## Known Bugs
-A few error in css file about 7 note more
+At the moment its a simple applications so does not have any bugs.
+if anyone encounters bugs feel free to contact my details are below, with a brief description of then bug. 
 ## Technologies Used
+Javascript
+html
+csss
+bootstrap
 
 ## Support and contact details
 tel : 0707147614 
