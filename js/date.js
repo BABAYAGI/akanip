@@ -38,9 +38,9 @@ maleakannames[0]= "kwame"
 maleakannames[1]= "kwasi"
 maleakannames[2]= "kwadwo"
 maleakannames[3]= "kwabena"
-maleakannames[4]= "kwaki"
+maleakannames[4]= "kwaku"
 maleakannames[5]= "yaw"
-maleakannames[6]= "kwame"
+maleakannames[6]= "kofi"
 
 //Akan names Array
 femaleakannames = new MakeArray(7);
