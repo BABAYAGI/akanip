@@ -34,13 +34,23 @@ months[12] = "December"
 
 //Akan names Array
 maleakannames = new MakeArray(7);
-akannames[0]= "kwame"
-akannames[1]= "kwasi"
-akannames[2]= "kwadwo"
-akannames[3]= "kwabena"
-akannames[4]= "kwaki"
-akannames[5]= "yaw"
-akannames[6]= "kwame"
+maleakannames[0]= "kwame"
+maleakannames[1]= "kwasi"
+maleakannames[2]= "kwadwo"
+maleakannames[3]= "kwabena"
+maleakannames[4]= "kwaki"
+maleakannames[5]= "yaw"
+maleakannames[6]= "kwame"
+
+//Akan names Array
+femaleakannames = new MakeArray(7);
+femaleakannames[0]= "Ama"
+femaleakannames[1]= "Akosua"
+femaleakannames[2]= "Adwoa"
+femaleakannames[3]= "Abenaa"
+femaleakannames[4]= "Akua"
+femaleakannames[5]= "Yaa"
+femaleakannames[6]= "Afua"
 
 
 //Day of Week Function
@@ -73,11 +83,10 @@ function compute(form) {
    var val8 = val1+(val2x*2)+val4+val3+val5-val6+val7+2
    var val9 = parseInt(val8/7, 10)
    var val0 = val8-(val9*7)
-   form.result1.value = maleakannames[val0]
+   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
    form.result2.value = days[val0]
 }   
 
-//Day of Week Function
 function compute(form) {
   var val1 = parseInt(form.day.value, 10)
   if ((val1 < 0) || (val1 > 31)) {
@@ -107,8 +116,9 @@ function compute(form) {
   var val8 = val1+(val2x*2)+val4+val3+val5-val6+val7+2
   var val9 = parseInt(val8/7, 10)
   var val0 = val8-(val9*7)
-  form.result1.value = akannames[val0]
+  form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
   form.result2.value = days[val0]
 }   
+
 
 
