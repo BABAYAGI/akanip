@@ -7,7 +7,7 @@ function MakeArray(n) {
    }
 }
 
-//Days of Week Array
+//Days of Week Array For Reference 
 days = new MakeArray(7);
 days[0] = "Saturday"
 days[1] = "Sunday"
